@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "ConnectionStrings": {
+        "DefaultConection": "Server=NEWPORT\\SQLEXPRESS01;Database=ASENI;Trusted_Connection=True;TrustServerCertificate=True;"
+      }
+    }
+  }
+}
