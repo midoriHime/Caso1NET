@@ -14,13 +14,13 @@ namespace Caso1NET
     {
 
 
-        private static MemoryCache _cache = new MemoryCache("listadoCantones");
+       /* private static MemoryCache _cache = new MemoryCache("listadoCantones");
 
         public static object GetItem(string key)
         {
             return AddOrGetExisting(key, () => InitItem(key));
         }
-
+        /*
         private static T AddOrGetExisting<T>(string key, Func<T> valueFactory)
         {
             var newValue = new Lazy<T>(valueFactory);
@@ -41,6 +41,6 @@ namespace Caso1NET
         {
             // Do something expensive to initialize item
             return new { Value = key.ToUpper() };
-        }
+        }*/
     }
 }

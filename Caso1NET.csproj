@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UserSecretsId>205d3982-8a2d-4f22-bda0-c910518b33b5</UserSecretsId>
+    <StartupObject>Caso1NET.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
